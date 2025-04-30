@@ -20,7 +20,6 @@ python -m venv .venv
 * Для Windows:
     ```
     .venv\Scripts\activate
-
 * Для Linux:
     ```
   source .venv/bin/activate
