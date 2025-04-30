@@ -37,5 +37,3 @@ PARSER_CONFIG = {
     'start_date': datetime(2025, 3, 1),
     'end_date': datetime.now()
 }
-
-print(ASYNC_DB_CONFIG)

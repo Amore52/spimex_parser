@@ -54,3 +54,14 @@ python main.py
 ```
 python async_main.py
 ```
+## Важное
+В файле `settings.py` лежат настройки парсера:
+```
+PARSER_CONFIG = {
+    'base_url': "https://spimex.com/markets/oil_products/trades/results/",
+    'download_dir': os.path.join(BASE_DIR, "downloads"),
+    'start_date': datetime(2025, 3, 1),
+    'end_date': datetime.now()
+}
+```
+Где ключ `start_date` указывает с какой даты скачивать .xls документы.
