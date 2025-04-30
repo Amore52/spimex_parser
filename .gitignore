@@ -1,0 +1,52 @@
+# Виртуальные среды
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Логи и файлы баз данных
+*.log
+db.sqlite3
+*.sqlite
+
+# Переменные окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.example  # Укажите только если хотите исключить шаблон
+
+# Исходящие файлы сборки и пакетов
+dist/
+build/
+*.egg-info/
+*.egg
+*.so
+
+# Кэши
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Конфигурации IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Другие временные файлы
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.orig
