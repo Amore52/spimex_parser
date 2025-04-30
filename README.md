@@ -9,7 +9,7 @@
 ## Настройка
 ### 1. Клонируйте репозиторий 
 ```
-git clone https://github.com/amore_52/spimex_parser.git
+git clone https://github.com/amore52/spimex_parser.git
 ```
 ### 2. Создайте виртуальное окружение:
 ```
